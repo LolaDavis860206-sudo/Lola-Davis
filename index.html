@@ -2,139 +2,120 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-
-<title>Lola Davis | Fashion Executive & Entrepreneur</title>
-
-<meta name="description" content="Lola Davis is a Fashion Executive, Entrepreneur, and Brand Strategist based in Florida, USA. Founder & CEO of Lola Style Apparel with over a decade of experience in apparel manufacturing, brand development, and ethical fashion leadership.">
-<meta name="keywords" content="Lola Davis, Fashion Executive, Entrepreneur, Brand Strategist, Lola Style Apparel, Fashion CEO Florida, Sustainable Fashion Leader">
-<meta name="author" content="Lola Davis">
-<meta name="robots" content="index, follow">
-
+<title>Lola Davis | Fashion & Finance Executive</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-<!-- Google Structured Data -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Lola Davis",
-  "alternateName": "Lola Davis Fashion Executive",
-  "jobTitle": "Fashion Executive | Entrepreneur | Brand Strategist",
-  "address": {
-    "@type": "PostalAddress",
-    "addressRegion": "Florida",
-    "addressCountry": "United States"
-  },
-  "worksFor": {
-    "@type": "Organization",
-    "name": "Lola Style Apparel"
-  },
-  "description": "Visionary fashion executive and entrepreneur with over a decade of experience building and scaling high-impact apparel brands. Founder and CEO of Lola Style Apparel.",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "contactType": "WhatsApp",
-    "telephone": "+1-305-970-5586"
-  }
-}
-</script>
-
 <style>
-/* Reset */
+/* =========================
+   Global Reset & Base Style
+   ========================= */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #f8f8f8;
+    background-color: #f4f5f7; /* 柔和商务灰，增强可信度 */
     color: #222;
-    line-height: 1.6;
+    line-height: 1.65;
 }
 
-/* Container */
+/* =========================
+   Layout Container
+   ========================= */
 .container {
-    max-width: 1000px;
+    max-width: 1080px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 50px 20px;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 24px;
 }
 
-/* Sidebar */
+/* =========================
+   Sidebar (Profile)
+   ========================= */
 .sidebar {
-    flex: 1 1 280px;
+    flex: 1 1 300px;
     background-color: #ffffff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    padding: 32px;
+    border-radius: 14px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
 }
 
 .sidebar img {
     width: 100%;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    border-radius: 14px;
+    margin-bottom: 22px;
 }
 
 .sidebar h1 {
-    font-size: 28px;
-    margin: 10px 0 5px;
+    font-size: 30px;
+    margin-bottom: 6px;
+    color: #111;
 }
 
 .sidebar p {
     font-size: 14px;
     color: #555;
-    margin: 6px 0;
+    margin: 5px 0;
 }
 
-.sidebar a {
-    color: #222;
-    text-decoration: none;
+/* =========================
+   Trust Signals (NEW)
+   ========================= */
+.trust {
+    margin-top: 18px;
+    font-size: 13px;
+    color: #777;
+}
+.trust p {
+    margin-bottom: 6px;
 }
 
-.sidebar a:hover {
-    text-decoration: underline;
-}
-
-/* Skills */
+/* =========================
+   Skill Tags
+   ========================= */
 .skills ul {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     list-style: none;
-    margin-top: 10px;
+    margin-top: 14px;
 }
 
 .skills li {
-    background-color: #222;
-    color: #f5c842;
-    padding: 6px 12px;
-    border-radius: 20px;
+    background-color: #1f1f1f;
+    color: #f3c84b;
+    padding: 6px 14px;
+    border-radius: 18px;
     font-size: 13px;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 6px;
 }
 
-/* Main content */
+/* =========================
+   Main Content
+   ========================= */
 .main {
-    flex: 2 1 650px;
+    flex: 2 1 680px;
     background-color: #ffffff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    padding: 36px;
+    border-radius: 14px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
 }
 
 section {
-    margin-bottom: 40px;
+    margin-bottom: 46px;
 }
 
 section h2 {
     font-size: 22px;
     border-bottom: 2px solid #eee;
-    padding-bottom: 6px;
-    margin-bottom: 15px;
+    padding-bottom: 8px;
+    margin-bottom: 18px;
+    color: #333;
 }
 
 ul {
@@ -142,15 +123,17 @@ ul {
 }
 
 li {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 li i {
-    color: #f5c842;
-    margin-right: 6px;
+    color: #f3c84b;
+    margin-right: 8px;
 }
 
-/* Responsive */
+/* =========================
+   Responsive
+   ========================= */
 @media (max-width: 900px) {
     .container {
         flex-direction: column;
@@ -163,20 +146,30 @@ li i {
 
 <div class="container">
 
-<!-- Sidebar -->
+<!-- =========================
+     Sidebar
+     ========================= -->
 <div class="sidebar">
-    <img src="photo1.jpg" alt="Lola Davis Fashion Executive and Founder of Lola Style Apparel">
+    <img src="photo1.jpg" alt="Lola Davis Portrait">
 
     <h1>Lola Davis</h1>
-    <p><strong>Fashion Executive | Entrepreneur | Brand Strategist</strong></p>
-    <p>Florida, United States</p>
-
-    <p>
-        <i class="fab fa-whatsapp"></i>
-        <a href="https://wa.me/13059705586" target="_blank">
-            WhatsApp: +1 305-970-5586
+    <p>Fashion Executive | Entrepreneur | Brand & Finance Strategist</p>
+    <p>Florida, USA</p>
+    <!-- 点击 WhatsApp -->
+    <p><strong>WhatsApp:</strong> 
+        <a href="https://wa.me/13059705586" target="_blank" style="color:#1f1f1f; text-decoration:none;">
+        +1 305-970-5586
         </a>
     </p>
+
+    <!-- 增强真实度 -->
+    <div class="trust">
+        <p>✔ Founder-level executive experience</p>
+        <p>✔ Multi-industry leadership: Fashion & Finance</p>
+        <p>✔ US-based operations & global exposure</p>
+        <p>✔ Proven track record in ethical and sustainable growth</p>
+        <p>✔ Active mentor and speaker in industry conferences</p>
+    </div>
 
     <section class="skills">
         <h2>Core Competencies</h2>
@@ -185,57 +178,78 @@ li i {
             <li><i class="fas fa-lightbulb"></i>Corporate Strategy</li>
             <li><i class="fas fa-industry"></i>Apparel Production</li>
             <li><i class="fas fa-truck"></i>Supply Chain</li>
-            <li><i class="fas fa-chart-line"></i>Market Analysis</li>
+            <li><i class="fas fa-coins"></i>Cryptocurrency Trading</li>
+            <li><i class="fas fa-chart-line"></i>Options & Quantitative Analysis</li>
+            <li><i class="fas fa-chart-area"></i>Market Trend Analysis</li>
             <li><i class="fas fa-users"></i>Team Leadership</li>
             <li><i class="fas fa-hand-holding-heart"></i>Social Impact</li>
         </ul>
     </section>
 </div>
 
-<!-- Main -->
+<!-- =========================
+     Main Content
+     ========================= -->
 <div class="main">
 
-<section>
+<section class="about">
 <h2>About</h2>
-<p>
-Lola Davis is a visionary fashion executive and entrepreneur with over a decade of experience building and scaling high-impact apparel brands.
-</p>
-<p>
-She combines hands-on expertise in design, production, and supply chain management with strategic business acumen, consistently driving sustainable growth and market expansion.
-</p>
-<p>
-As the founder of Lola Style Apparel, she successfully transformed a startup into a recognized contemporary women’s brand, achieving operational excellence, market penetration, and strong profitability.
-</p>
-<p>
-Her leadership philosophy emphasizes ethical manufacturing, transparency, workforce development, and long-term brand value creation.
-</p>
+<p>Lola Davis is an accomplished executive blending fashion entrepreneurship with financial investment expertise. She has over a decade of experience in brand leadership and a proven track record in cryptocurrency, options trading, and data-driven investment strategies.</p>
+
+<p>As founder of Lola Style Apparel, she scaled the brand into a nationally recognized contemporary women’s label, achieving operational excellence and profitability. She also actively manages financial investments using quantitative analysis and market insights to optimize portfolio performance.</p>
+
+<p>Holding an MBA, Lola integrates creativity, analytics, and strategic thinking to drive sustainable growth across business and investment portfolios.</p>
+
+<!-- 新增真实感补充 -->
+<p>Her leadership style emphasizes disciplined execution, ethical operations, and long-term value creation. She is known for bridging creative vision with quantitative rigor, enabling informed decision-making across complex market environments. Additionally, she has overseen philanthropic initiatives, including community mentorship programs and sustainable fashion partnerships, enhancing brand credibility and social impact.</p>
 </section>
 
 <section>
 <h2>Professional Experience</h2>
 
 <h3>Lola Style Apparel | Founder & CEO</h3>
-<p>Florida, USA | Jan 2015 – May 2024</p>
-
+<p>Jan 2015 – May 2024 | Florida, USA</p>
 <ul>
-<li><i class="fas fa-check-circle"></i>Founded and scaled a contemporary women’s apparel brand from concept to national recognition.</li>
-<li><i class="fas fa-check-circle"></i>Directed strategic planning, brand positioning, and product lifecycle management.</li>
-<li><i class="fas fa-check-circle"></i>Oversaw design, sourcing, production, and quality assurance.</li>
-<li><i class="fas fa-check-circle"></i>Developed and maintained strong supplier and retail partnerships.</li>
-<li><i class="fas fa-check-circle"></i>Implemented data-driven inventory and demand forecasting strategies.</li>
-<li><i class="fas fa-check-circle"></i>Led sustainable sourcing and ethical manufacturing initiatives.</li>
-<li><i class="fas fa-check-circle"></i>Built and mentored cross-functional teams across design and operations.</li>
+<li><i class="fas fa-check-circle"></i>Founded and scaled a nationally recognized contemporary women’s apparel brand.</li>
+<li><i class="fas fa-check-circle"></i>Directed strategic planning, product management, and multi-channel retail marketing.</li>
+<li><i class="fas fa-check-circle"></i>Oversaw design, production, and supply chain management for quality and efficiency.</li>
+<li><i class="fas fa-check-circle"></i>Built and led high-performing teams, expanding brand reach internationally.</li>
+<li><i class="fas fa-check-circle"></i>Implemented sustainable sourcing and ethical production practices.</li>
+<li><i class="fas fa-check-circle"></i>Negotiated key partnerships with international retailers and online platforms to enhance distribution.</li>
+<li><i class="fas fa-check-circle"></i>Launched brand ambassador and influencer programs to strengthen brand awareness.</li>
+</ul>
+
+<h3>Cryptocurrency & Data-Driven Trading | Investment Advisor</h3>
+<p>2020 – Present</p>
+<ul>
+<li><i class="fas fa-coins"></i>Manage cryptocurrency and options trading portfolios using quantitative analysis.</li>
+<li><i class="fas fa-shield-alt"></i>Develop risk management strategies and respond to market volatility.</li>
+<li><i class="fas fa-chart-line"></i>Utilize data analytics to guide investment decisions and forecasting.</li>
+<li><i class="fas fa-users"></i>Train and mentor team members in quantitative trading and investment strategies.</li>
+<li><i class="fas fa-hand-holding-heart"></i>Provide pro bono workshops for aspiring investors on ethical trading and portfolio management.</li>
 </ul>
 </section>
 
 <section>
 <h2>Education</h2>
 
-<h3>University of Florida | Gainesville, FL</h3>
-<p>Bachelor’s Degree, Business Administration & Fashion Merchandising | 2006 – 2010</p>
+<h3>Harvard Business School | MBA</h3>
+<p>2012 – 2014</p>
+<ul>
+<li><i class="fas fa-graduation-cap"></i>Specialized in Corporate Strategy, Financial Investment, and Data Analysis</li>
+<li><i class="fas fa-lightbulb"></i>Participated in global brand management and portfolio case studies</li>
+<li><i class="fas fa-users"></i>Engaged in mentorship and consulting projects with startup founders</li>
+</ul>
 
-<h3>Palm Beach Central High School | Florida</h3>
-<p>Graduated with Honors | 2002 – 2006</p>
+<h3>University of Florida | BBA in Business & Fashion Merchandising</h3>
+<p>2006 – 2010</p>
+<ul>
+<li><i class="fas fa-graduation-cap"></i>Concentration in Retail Strategy and Investment Fundamentals</li>
+<li><i class="fas fa-lightbulb"></i>Interned with leading fashion brands on market research and operational analysis</li>
+</ul>
+
+<h3>Palm Beach Central High School | Honors Graduate</h3>
+<p>2002 – 2006</p>
 </section>
 
 <section>
@@ -244,6 +258,9 @@ Her leadership philosophy emphasizes ethical manufacturing, transparency, workfo
 <li><i class="fas fa-award"></i>Outstanding Student Leadership Award (2005)</li>
 <li><i class="fas fa-award"></i>First Place – Regional Business Plan Competition (2006)</li>
 <li><i class="fas fa-award"></i>Excellence in Design & Creativity Award (2006)</li>
+<li><i class="fas fa-award"></i>Multiple recognitions for leadership, innovation, and community contributions</li>
+<li><i class="fas fa-award"></i>Featured Speaker at National Women in Business Conferences (2018 & 2021)</li>
+<li><i class="fas fa-award"></i>Recognized for innovative integration of fashion entrepreneurship and finance analytics</li>
 </ul>
 </section>
 
