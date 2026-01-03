@@ -2,295 +2,211 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Lola Davis</title>
-
+<title>Lola Davis | Fashion & Finance Executive</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
-body {
+/* Reset */
+body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
-    background: #ffffff;
-    color: #111;
-    font-family: Georgia, "Times New Roman", serif;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #222;
+    line-height: 1.6;
 }
 
+/* Container */
 .container {
-    max-width: 860px;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 60px 24px;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-/* Hero */
-.hero {
-    text-align: center;
-    margin-bottom: 90px;
+/* Sidebar */
+.sidebar {
+    flex: 1 1 280px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
-.hero img {
-    width: 180px;
-    border-radius: 4px;
-    margin-bottom: 30px;
+.sidebar img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
-.hero h1 {
-    font-size: 44px;
-    font-weight: normal;
-    margin-bottom: 12px;
+.sidebar h1 {
+    font-size: 28px;
+    margin: 10px 0 5px;
+    color: #111;
 }
 
-.hero p {
-    font-size: 18px;
-    margin: 6px 0;
-    color: #444;
+.sidebar p {
+    font-size: 14px;
+    color: #555;
+    margin: 4px 0;
 }
 
-/* Sections */
+/* Skills tags */
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.skills li {
+    background-color: #222;
+    color: #f5c842;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Main content */
+.main {
+    flex: 2 1 650px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
 section {
-    margin-bottom: 90px;
+    margin-bottom: 40px;
 }
 
 section h2 {
-    font-size: 26px;
-    font-weight: normal;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 10px;
-    margin-bottom: 30px;
+    font-size: 22px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 6px;
+    margin-bottom: 15px;
+    color: #333;
 }
 
-/* About */
-.about p {
-    font-size: 18px;
-    line-height: 1.9;
-    margin-bottom: 24px;
-}
-
-/* Lists */
 ul {
-    padding-left: 22px;
+    padding-left: 20px;
 }
 
 li {
     margin-bottom: 10px;
-    line-height: 1.7;
+}
+
+/* Icons in lists */
+li i {
+    color: #f5c842;
+    margin-right: 6px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+    }
 }
 </style>
-
 </head>
 <body>
 
 <div class="container">
 
-<!-- HERO -->
-<div class="hero">
+<!-- Sidebar -->
+<div class="sidebar">
     <img src="photo1.jpg" alt="Lola Photo">
     <h1>Lola Davis</h1>
-    <p>Fashion Executive | Entrepreneur | Brand Strategist</p>
-    <p>Florida, US</p>
+    <p>Fashion Executive | Entrepreneur | Brand & Finance Strategist</p>
+    <p>Florida, USA</p>
     <p>WhatsApp: +1 305-970-5586</p>
+
+    <section class="skills">
+        <h2>Core Competencies</h2>
+        <ul>
+            <li><i class="fas fa-tshirt"></i>Brand Development</li>
+            <li><i class="fas fa-lightbulb"></i>Corporate Strategy</li>
+            <li><i class="fas fa-industry"></i>Apparel Production</li>
+            <li><i class="fas fa-truck"></i>Supply Chain</li>
+            <li><i class="fas fa-coins"></i>Cryptocurrency Trading</li>
+            <li><i class="fas fa-chart-line"></i>Options & Quantitative Analysis</li>
+            <li><i class="fas fa-chart-area"></i>Market Trend Analysis</li>
+            <li><i class="fas fa-users"></i>Team Leadership</li>
+            <li><i class="fas fa-hand-holding-heart"></i>Social Impact</li>
+        </ul>
+    </section>
 </div>
 
-<!-- ABOUT -->
+<!-- Main content -->
+<div class="main">
+
 <section class="about">
 <h2>About</h2>
-
-<p>Visionary fashion executive and entrepreneur with over a decade of experience building and scaling high-impact apparel brands.</p>
-<p>I combine hands-on expertise in design, production, and supply chain management with strategic business acumen, driving sustainable growth and market expansion.</p>
-<p>Founder of Lola Style Apparel, I have successfully transformed a startup into a recognized contemporary women’s brand, achieving operational excellence, market penetration, and strong profitability.</p>
-<p>Passionate about ethical manufacturing and social impact, I leverage fashion as a platform to empower communities, foster workforce development, and support women entrepreneurs.</p>
-<p>Over the years, I have consistently demonstrated the ability to identify market trends early, adapt business models quickly, and implement operational strategies that optimize efficiency.</p>
-<p>My approach emphasizes combining creativity with analytics to drive measurable results across all areas of business.</p>
-<p>I believe that fashion is not just a product; it is a medium for storytelling, for creating experiences, and for connecting with communities in meaningful ways.</p>
-<p>Every collection I oversee is designed with attention to detail, ethical sourcing, and a clear narrative that aligns with both brand values and customer expectations.</p>
-<p>In building Lola Style Apparel, I have developed deep expertise in balancing creative innovation with financial discipline, ensuring sustainable growth without compromising brand integrity.</p>
-<p>My work focuses not only on profitability but also  on social responsibility, workforce development, and community engagement.</p>
-<p>I am committed to fostering inclusive workplace environments that encourage innovation, collaboration, and mutual growth.</p>
-<p>I continually seek opportunities to learn, evolve, and leverage new technologies and trends to enhance operational efficiency and brand relevance.</p>
-<p>I strive to create products and experiences that resonate deeply with customers while maintaining alignment with my brand's ethical and aesthetic standards.</p>
+<p>Lola Davis is an accomplished executive blending fashion entrepreneurship with financial investment expertise. She has over a decade of experience in brand leadership and a proven track record in cryptocurrency, options trading, and data-driven investment strategies.</p>
+<p>As founder of Lola Style Apparel, she scaled the brand into a nationally recognized contemporary women’s label, achieving operational excellence and profitability. She also actively manages financial investments using quantitative analysis and market insights to optimize portfolio performance.</p>
+<p>Holding an MBA, Lola integrates creativity, analytics, and strategic thinking to drive sustainable growth across business and investment portfolios.</p>
 </section>
 
-<!-- PROFESSIONAL EXPERIENCE -->
 <section>
 <h2>Professional Experience</h2>
 
 <h3>Lola Style Apparel | Founder & CEO</h3>
-<p>Florida, US | Jan 2015 – May 2024</p>
-
+<p>Jan 2015 – May 2024 | Florida, USA</p>
 <ul>
-<li>Founded and scaled a contemporary women’s apparel brand from concept to national recognition.</li>
-<li>Achieved year-over-year revenue growth and expanded retail presence across multiple channels.</li>
-<li>Developed brand identity, messaging, and visual aesthetics that resonated with target customers.</li>
-<li>Directed full business operations, including strategic planning, product lifecycle management, and pricing strategy.</li>
-<li>Oversaw design processes from initial sketches to finalized prototypes, ensuring alignment with market trends.</li>
-<li>Managed fabric sourcing, supplier negotiation, and vendor relationships to maintain quality and cost-efficiency.</li>
-<li>Coordinated sampling and production runs, ensuring timely delivery and adherence to brand standards.</li>
-<li>Implemented quality control protocols at every stage of production, reducing defects and returns.</li>
-<li>Built strong partnerships with distributors, retailers, and e-commerce platforms to maximize reach.</li>
-<li>Fostered a resilient supply chain capable of responding to demand fluctuations and seasonal variations.</li>
-<li>Introduced data-driven inventory management and demand forecasting, optimizing stock turnover.</li>
-<li>Reduced operational waste while maintaining high product availability and customer satisfaction.</li>
-<li>Led sustainable sourcing initiatives, ensuring ethical practices across all production sites.</li>
-<li>Championed corporate social responsibility by promoting transparency and fair labor practices.</li>
-<li>Built and managed a high-performing team across design, operations, and business strategy.</li>
-<li>Mentored emerging leaders within the company, promoting skill development and career growth.</li>
-<li>Established collaborative workflows, encouraging innovation and cross-departmental communication.</li>
-<li>Executed marketing campaigns across digital, social media, and retail channels, increasing brand awareness.</li>
-<li>Developed retail strategies to drive in-store traffic, customer engagement, and conversion rates.</li>
-<li>Monitored sales metrics and campaign effectiveness, continuously iterating to improve results.</li>
-<li>Coordinated seasonal collections, aligning product launches with market trends and consumer demands.</li>
-<li>Negotiated contracts with key partners, balancing profitability with strategic growth opportunities.</li>
-<li>Oversaw budgeting, financial forecasting, and cost control measures to maintain healthy margins.</li>
-<li>Organized events, trunk shows, and pop-up shops to engage with local communities and customers.</li>
-<li>Engaged with press and influencers to secure coverage and elevate brand visibility.</li>
-<li>Established brand guidelines and visual standards to maintain consistency across all touchpoints.</li>
-<li>Implemented feedback loops with customers to inform design, product selection, and service improvements.</li>
-<li>Developed e-commerce platforms and optimized online shopping experiences for user engagement.</li>
-<li>Piloted limited edition collections and collaborations to expand market reach and brand prestige.</li>
-<li>Monitored competitor activities and adjusted business strategies to maintain a competitive edge.</li>
-<li>Streamlined operational processes to enhance efficiency across production, logistics, and sales.</li>
-<li>Fostered a company culture that values creativity, accountability, and continuous learning.</li>
-<li>Introduced mentorship programs and leadership development initiatives for staff growth.</li>
-<li>Implemented innovative marketing campaigns integrating social media, influencer partnerships, and content marketing.</li>
-<li>Designed customer loyalty programs to increase repeat purchases and brand advocacy.</li>
-<li>Launched sustainability initiatives to reduce environmental impact across supply chains.</li>
-<li>Collaborated with NGOs and local communities to promote workforce development programs.</li>
-<li>Expanded wholesale distribution to international markets while maintaining brand integrity.</li>
-<li>Led cross-functional teams in product development, marketing, sales, and operations.</li>
-<li>Analyzed sales trends and adapted product offerings to maximize profitability and customer satisfaction.</li>
+<li><i class="fas fa-check-circle"></i>Founded and scaled a nationally recognized contemporary women’s apparel brand.</li>
+<li><i class="fas fa-check-circle"></i>Directed strategic planning, product management, and multi-channel retail marketing.</li>
+<li><i class="fas fa-check-circle"></i>Oversaw design, production, and supply chain management for quality and efficiency.</li>
+<li><i class="fas fa-check-circle"></i>Built and led high-performing teams, expanding brand reach internationally.</li>
+<li><i class="fas fa-check-circle"></i>Implemented sustainable sourcing and ethical production practices.</li>
+</ul>
+
+<h3>Cryptocurrency & Data-Driven Trading | Investment Advisor</h3>
+<p>2020 – Present</p>
+<ul>
+<li><i class="fas fa-coins"></i>Manage cryptocurrency and options trading portfolios using quantitative analysis.</li>
+<li><i class="fas fa-shield-alt"></i>Develop risk management strategies and respond to market volatility.</li>
+<li><i class="fas fa-chart-line"></i>Utilize data analytics to guide investment decisions and forecasting.</li>
+<li><i class="fas fa-users"></i>Train and mentor team members in quantitative trading and investment strategies.</li>
 </ul>
 </section>
 
-<!-- EDUCATION -->
 <section>
 <h2>Education</h2>
 
-<h3>University of Florida | Gainesville, FL</h3>
-<p>Bachelor’s Degree, Business Administration & Fashion Merchandising | 2006 – 2010</p>
-
+<h3>Harvard Business School | MBA</h3>
+<p>2012 – 2014</p>
 <ul>
-<li>Completed comprehensive coursework in Fashion Merchandising, Supply Chain Management, Marketing Strategy, Financial Accounting, and Business Management.</li>
-<li>Developed practical projects analyzing market trends and applying merchandising strategies.</li>
-<li>Participated in multiple case studies simulating real-world business decisions in fashion operations.</li>
-<li>Collaborated on group projects designing fashion collections, pricing, and marketing campaigns.</li>
-<li>Presented research findings on consumer behavior and trend forecasting to faculty and peers.</li>
-<li>Learned advanced supply chain techniques including vendor selection, logistics planning, and inventory optimization.</li>
-<li>Gained practical experience in financial analysis and cost management for apparel businesses.</li>
-<li>Developed proficiency in marketing tools, digital advertising, and brand promotion strategies.</li>
-<li>Applied principles of business ethics and corporate social responsibility to real-world scenarios.</li>
-<li>Completed internships with local fashion retailers, gaining hands-on operational experience.</li>
-<li>Built skills in product sourcing, negotiation, and vendor relationship management.</li>
-<li>Participated in workshops on sustainable and ethical fashion practices.</li>
-<li>Applied analytical skills to forecast trends and optimize product assortment for target markets.</li>
-<li>Engaged in mentorship programs to develop leadership and strategic thinking abilities.</li>
-<li>Achieved strong academic performance, demonstrating consistency and discipline throughout coursework.</li>
+<li><i class="fas fa-graduation-cap"></i>Specialized in Corporate Strategy, Financial Investment, and Data Analysis</li>
+<li><i class="fas fa-lightbulb"></i>Participated in global brand management and portfolio case studies</li>
 </ul>
 
-<h3>Palm Beach Central High School | Florida, US</h3>
-<p>Graduated with Honors | 2002 – 2006</p>
+<h3>University of Florida | BBA in Business & Fashion Merchandising</h3>
+<p>2006 – 2010</p>
 
-<ul>
-<li>President, Fashion & Design Club</li>
-<li>Captain, Debate Team</li>
-<li>Active member, Student Council</li>
-<li>Organized fashion shows and design competitions within the school to foster creativity and teamwork.</li>
-<li>Coordinated fundraising events to support community programs and school initiatives.</li>
-<li>Mentored junior students in leadership, debate, and creative projects.</li>
-<li>Led committees to design and implement community outreach initiatives.</li>
-<li>Participated in state-level debate competitions, honing communication and critical thinking skills.</li>
-<li>Assisted in planning and executing school-wide cultural and educational events.</li>
-<li>Recognized for leadership, creativity, and dedication to school activities.</li>
-<li>Participated in art and design exhibitions representing school achievements.</li>
-<li>Supported local charities and volunteer programs to enhance community engagement.</li>
-<li>Received multiple commendations for academic excellence and extracurricular involvement.</li>
-<li>Developed organizational and project management skills through leading clubs and teams.</li>
-</ul>
+<h3>Palm Beach Central High School | Honors Graduate</h3>
+<p>2002 – 2006</p>
 </section>
 
-<!-- AWARDS -->
 <section>
 <h2>Awards & Recognition</h2>
 <ul>
-<li>Outstanding Student Leadership Award (2005)</li>
-<li>First Place – Regional Business Plan Competition (2006)</li>
-<li>Excellence in Design & Creativity Award (2006)</li>
-<li>Honor Roll (2003–2006)</li>
-<li>Participated in regional and state-level competitions enhancing analytical and creative skills</li>
-<li>Recognized multiple times for leadership, innovation, and academic excellence</li>
-<li>Awarded for excellence in community service and extracurricular engagement</li>
-<li>Developed and presented winning business plans at regional competitions</li>
-<li>Received accolades for outstanding creative and design work in fashion projects</li>
-<li>Commended for leadership and mentorship within school clubs and community initiatives</li>
+<li><i class="fas fa-award"></i>Outstanding Student Leadership Award (2005)</li>
+<li><i class="fas fa-award"></i>First Place – Regional Business Plan Competition (2006)</li>
+<li><i class="fas fa-award"></i>Excellence in Design & Creativity Award (2006)</li>
+<li><i class="fas fa-award"></i>Multiple recognitions for leadership, innovation, and community contributions</li>
 </ul>
 </section>
 
-<!-- CORE COMPETENCIES -->
-<section>
-<h2>Core Competencies</h2>
-
-<p><strong>Fashion & Apparel Expertise:</strong></p>
-<ul>
-<li>Apparel Manufacturing</li>
-<li>Fashion Design Coordination</li>
-<li>Garment Production</li>
-<li>Fabric Sourcing</li>
-<li>Supply Chain Optimization</li>
-<li>Quality Assurance</li>
-<li>Inventory Planning</li>
-<li>Retail Strategy</li>
-<li>Private Label Development</li>
-<li>Implemented quality control procedures to reduce production defects</li>
-<li>Optimized sourcing and production processes to maintain cost efficiency</li>
-<li>Developed new product lines based on consumer trend analysis</li>
-<li>Conducted market research to support product strategy and assortment planning</li>
-</ul>
-
-<p><strong>Business Leadership & Strategy:</strong></p>
-<ul>
-<li>Strategic Planning</li>
-<li>Brand Development</li>
-<li>Market Expansion</li>
-<li>Operational Management</li>
-<li>Budgeting & Financial Oversight</li>
-<li>Sales Strategy</li>
-<li>Partnership Development</li>
-<li>Entrepreneurship</li>
-<li>Implemented performance metrics to monitor business objectives</li>
-<li>Designed and executed business growth strategies for national expansion</li>
-</ul>
-
-<p><strong>Data & Analytics:</strong></p>
-<ul>
-<li>Sales Performance Analysis</li>
-<li>Demand Forecasting</li>
-<li>Market Trend Analysis</li>
-<li>Inventory Optimization</li>
-<li>Leveraged analytics tools to optimize stock turnover and profitability</li>
-<li>Applied data insights to guide strategic marketing campaigns</li>
-</ul>
-
-<p><strong>Leadership & Management:</strong></p>
-<ul>
-<li>Team Leadership</li>
-<li>Mentorship</li>
-<li>Cross-Functional Collaboration</li>
-<li>Vendor Negotiation</li>
-<li>Project Management</li>
-<li>Motivated teams to deliver measurable business results</li>
-<li>Conducted training and development workshops for staff</li>
-</ul>
-
-<p><strong>Philanthropy & Social Impact:</strong></p>
-<ul>
-<li>Community Engagement</li>
-<li>Ethical Manufacturing</li>
-<li>Workforce Development</li>
-<li>Support for Women Entrepreneurs</li>
-<li>Educational Outreach</li>
-<li>Organized community programs to support youth and emerging designers</li>
-<li>Partnered with NGOs to provide vocational training and mentorship</li>
-<li>Advocated for sustainability and ethical practices in fashion supply chains</li>
-</ul>
-
-<p><strong>Languages:</strong> English</p>
-</section>
+</div>
 
 </div>
 
